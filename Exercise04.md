@@ -25,7 +25,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    server-->>browser: { "note": "Samudra Biru", "date": "2023-1-1" }
+    server-->>browser: { "note": "your note", "date": "2023-1-1" }
     deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
@@ -47,4 +47,4 @@ sequenceDiagram
     activate server
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate server
-    ```
+```
